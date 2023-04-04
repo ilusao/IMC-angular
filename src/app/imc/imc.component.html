@@ -1,0 +1,46 @@
+<body>
+
+<form>
+  <fieldset>
+  <h1>calculadora de IMC</h1>
+
+  Digite sua altura
+  <input type="number" name="altura" [(ngModel)]="altura" >
+
+  <br>
+
+  Digite seu peso
+
+  <input type="number" name="peso" [(ngModel)]="peso">
+</fieldset>
+<fieldset>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h2 style="color: aqua;">IMC</h2>
+ <br>
+ <button (click)="calcular()">calcular</button>
+ <br><br>
+ <input [value]="imc">
+  <br><br><br>
+</fieldset>
+
+
+<fieldset> <h3>IMC        CLASSIFICAÇÃO           OBESIDADE(GRAU) <br>
+
+  MENOR QUE        18,5                 MAGREZA   0  <br>
+
+  ENTRE         18,5 E 24,9              NORMAL   0  <br>
+
+  ENTRE         25,0 E 29,9             SOBREPESO I  <br>
+
+  ENTRE         30,0 E 39,9             OBESIDADE II  <br>
+
+  MAIOR QUE         40,0            OBESIDADE GRAVE   III  <br>
+
+</h3>
+</fieldset>
+</form>
+</body>

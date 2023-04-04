@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background : linear-gradient(to right, rgb(81, 27, 230),rgb(159, 198, 17));
+}
+button{
+  color: rgb(203, 12, 66);
+  border-color: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(2, 116, 247);
+}
+
+input{
+  border-radius: 10px;
+
+}
